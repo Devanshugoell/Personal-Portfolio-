@@ -10,7 +10,7 @@
     top: 0;
     z-index: 3;
     /* max-width: 85%; */
-    max-width: 75rem;
+    max-width: 80rem;
 }
 .navbar img {
     animation: fadeIn 2s;
