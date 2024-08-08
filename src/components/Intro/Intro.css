@@ -1,0 +1,99 @@
+.resume{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    width: 1rem;
+}
+#intro{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin : 0 auto;
+    /* overflow: hidden; */
+    position: relative;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    /* top: -4rem; */
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 79vh;
+    /* height: 100vh; */
+}
+
+.introContent {
+    margin-right: 4rem;
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+    margin-bottom:1rem ;
+}
+
+.introName{
+    color:rgb(148,3 ,248);
+}
+
+.introPara {
+    line-height: 1.2rem;
+    font-size: large;
+    line-height: 2rem;
+    font-weight: 300;
+}
+.introContent .btn{
+    background-color: #fff;
+    margin: 2rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    width: 40vw;
+}
+
+.introContent button{
+    font-weight: 900;
+}
+
+.introContent span {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .bg{
+        height: 40vh;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50% ;
+        background-color: rgb(148,3 ,248);;
+        
+    }
+    .introContent{
+        position: relative;
+        bottom: -20vh;
+    }
+} 
+
+@media screen and (max-width:400px) {
+    .bg{
+        height: 35vh;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50% ;
+        background-color: rgb(148,3 ,248);;
+        
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+}

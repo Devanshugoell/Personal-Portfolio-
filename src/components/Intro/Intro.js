@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../../Assets/resume-icon.png";
-import bg from "../../Assets/bg.png";
+import bg from "../../Assets/new-bg-remove-img.png";
 import "./Intro.css";
 import { Link } from "react-scroll";
 
@@ -11,12 +11,12 @@ const Intro = () => {
         <span className="hello">Hello,</span>
         <span className="introText">
           I'm <span className="introName">Devanshu</span> <br />
-          Web Developer
+          <span>Web Developer</span>
         </span>
         <p className="introPara">
-          Computer science graduate seeking roles in web development .
+          Computer science graduate seeking roles in web development. <br />
           Proficient in JavaScript and React Js used in web development
-          including version control tools like Git, GitHub
+          including version control <br /> tools like Git, GitHub
         </p>
         <Link>
           <button className="btn">

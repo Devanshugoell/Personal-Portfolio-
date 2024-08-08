@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link className="desktopMenuListItem">Home</Link>
         <Link className="desktopMenuListItem">About</Link>
         <Link className="desktopMenuListItem">Projects</Link>
-        <Link className="desktopMenuListItem">Contact Me</Link>
+        <Link className="desktopMenuListItem">Contact</Link>
       </div>
       <button className="desktopMenuBtn">
         <img src={contactImg} alt="Contact" className="desktopMenuImg" />
