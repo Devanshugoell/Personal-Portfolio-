@@ -66,8 +66,8 @@
 }
 
 @media screen and (max-width:610px) {
-    .skillBarImg{
-        width: 5rem;
+    .skillbar .skillBarImg{
+        width: 5vw;
     }
 }
 
