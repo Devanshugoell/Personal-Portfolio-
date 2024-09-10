@@ -12,7 +12,7 @@
   margin: 0 auto;
   min-height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 60rem;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,5 +77,16 @@
 @media screen and (max-width: 530px) {
   .worksDone img {
     width: 250px;
+  }
+  .techStack span {
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
+  }
+  .workTitle {
+    letter-spacing: 0px;
+    font-size: 1.3rem;
+  }
+  .worksTitle {
+    font-size: 2rem;
   }
 }
