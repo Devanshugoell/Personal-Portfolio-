@@ -7,7 +7,7 @@ import PortfolioImg from "./PersonalPortfolioImg.png";
 const Works = () => {
   return (
     <section id="works">
-      <h2 className="workstitle">My Portfolio</h2>
+      <h2 className="worksTitle">My Portfolio</h2>
       <spn className="workDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque saepe
         esse eos corporis quibusdam laborum veniam dolores quos. Doloremque
