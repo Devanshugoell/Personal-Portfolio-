@@ -46,8 +46,8 @@ const Work2 = () => {
           <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
             velit aliquam distinctio fugit blanditiis error voluptatum at
-            reiciendis eum quidem. Deserunt provident, veniam voluptates
-            molestiae quisquam obcaecati error perspiciatis voluptatum.
+            reiciendis eum quidem. (Used email.js library to get the email in
+            the contact form).
           </div>
           <div className="techStack">
             <span>Live Website</span>
