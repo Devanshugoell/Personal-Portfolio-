@@ -14,9 +14,8 @@ const Work2 = () => {
           <h2 className="workTitle">GEMINI CLONE </h2>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            velit aliquam distinctio fugit blanditiis error voluptatum at
-            reiciendis eum quidem. Deserunt provident, veniam voluptates
-            molestiae quisquam obcaecati error perspiciatis voluptatum.
+            (techStack that i used is html , tailwindCss , react) (Used
+            contextAPI and Google gemini API to fetch the data)
           </div>
           <div className="techStack">
             <span>Live Website</span>
@@ -30,9 +29,9 @@ const Work2 = () => {
           <h2 className="workTitle">CRYPTO PRICE TRACKER </h2>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            velit aliquam distinctio fugit blanditiis error voluptatum at
-            reiciendis eum quidem. Deserunt provident, veniam voluptates
-            molestiae quisquam obcaecati error perspiciatis voluptatum.
+            (techStack that i used is react router dom , react, css, html ,
+            react-google charts) (Used Coingecko API to fetch data and
+            react-google-charts library to show the chart)
           </div>
           <div className="techStack">
             <span>Live Website</span>

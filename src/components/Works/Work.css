@@ -9,7 +9,7 @@
 }
 
 #works {
-  margin: 0 auto;
+  margin: 1rem auto;
   min-height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 80rem;
