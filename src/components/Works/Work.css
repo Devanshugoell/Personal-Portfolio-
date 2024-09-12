@@ -79,7 +79,7 @@
     width: 250px;
   }
   .techStack span {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     padding: 1rem 1rem;
   }
   .workTitle {
@@ -88,5 +88,8 @@
   }
   .worksTitle {
     font-size: 2rem;
+  }
+  .btn {
+    width: 100vw;
   }
 }

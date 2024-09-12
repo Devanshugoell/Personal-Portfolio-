@@ -9,6 +9,7 @@
   justify-content: center;
   text-align: center;
   padding: 0 1rem;
+  overflow: hidden;
 }
 
 .contactPageTitle {
@@ -108,4 +109,12 @@
   .msg {
     max-width: 20rem;
   }
+}
+
+#contactPage::-webkit-scrollbar {
+  display: none;
+}
+
+#contactPage {
+  scrollbar-width: none;
 }

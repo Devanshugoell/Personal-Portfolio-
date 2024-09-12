@@ -70,8 +70,9 @@
 @media screen and (max-width: 1000px) {
   .bg {
     height: 40vh;
-    top: 30%;
+    top: 25%;
     left: 50%;
+    float: right;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: rgb(148, 3, 248);
@@ -88,7 +89,7 @@
 @media screen and (max-width: 400px) {
   .bg {
     height: 25vh;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
@@ -99,5 +100,8 @@
   }
   #intro {
     margin-bottom: 2rem;
+  }
+  .introContent .btn {
+    margin: 3rem 0;
   }
 }

@@ -18,8 +18,20 @@ const Work2 = () => {
             contextAPI and Google gemini API to fetch the data)
           </div>
           <div className="techStack">
-            <span>Live Website</span>
-            <span>Source Code</span>
+            <a
+              href="https://devanshu-project-0.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Live Website</span>
+            </a>
+            <a
+              href="https://github.com/Devanshugoell/GeminiClone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Source Code</span>
+            </a>
           </div>
         </div>
       </div>
@@ -34,8 +46,21 @@ const Work2 = () => {
             react-google-charts library to show the chart)
           </div>
           <div className="techStack">
-            <span>Live Website</span>
-            <span>Source Code</span>
+            <a
+              href="https://devanshu-project-1.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Live Website</span>
+            </a>
+
+            <a
+              href="https://github.com/Devanshugoell/Crypto-Price-Tracking-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Source Code</span>
+            </a>
           </div>
         </div>
       </div>
@@ -50,8 +75,20 @@ const Work2 = () => {
             the contact form and used react-scroll for easy navigation).
           </div>
           <div className="techStack">
-            <span>Live Website</span>
-            <span>Source Code</span>
+            <a
+              href="https://devanshu-personal.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Live Website</span>
+            </a>
+            <a
+              href="https://github.com/Devanshugoell/Personal-Portfolio-"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Source Code</span>
+            </a>
           </div>
         </div>
       </div>
