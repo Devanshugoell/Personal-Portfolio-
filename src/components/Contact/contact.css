@@ -1,4 +1,4 @@
-.contactPage {
+#contactPage {
   margin: 1rem auto;
   min-height: calc(100vh - 4rem);
   width: 100vw;
@@ -53,6 +53,13 @@
   padding: 0.75rem 3.5rem;
   border-radius: 0.5rem;
   margin: 2rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submitBtn:active {
+  box-shadow: 5px 5px 12px rgb(0, 0, 0);
+  transform: scale(0.9);
 }
 
 .links {
@@ -63,4 +70,42 @@
 .link {
   width: 2.4rem;
   margin: 0 0.75rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .contactPageTitle {
+    font-size: 2rem;
+  }
+  .name,
+  .email,
+  .msg {
+    max-width: 45rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contactPageTitle {
+    font-size: 1.5rem;
+  }
+  .name,
+  .email,
+  .msg {
+    max-width: 35rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .name,
+  .email,
+  .msg {
+    max-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name,
+  .email,
+  .msg {
+    max-width: 20rem;
+  }
 }
