@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <a href="/" rel="noopener noreferrer">
+        <img src={logo} alt="logo" className="logo" />
+      </a>
       <div className="desktopMenu">
         <Link
           activeClass="active"
