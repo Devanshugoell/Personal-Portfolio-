@@ -59,10 +59,34 @@ const Contact = () => {
           Submit
         </button>
         <div className="links">
-          <img src={twitterIcon} alt="twitterIcon" className="link" />
-          <img src={instagramIcon} alt="instagramIcon" className="link" />
-          <img src={githubIcon} alt="githubIcon" className="link" />
-          <img src={linkedinIcon} alt="linkedinIcon" className="link" />
+          <a
+            href="https://x.com/devanshugoell"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={twitterIcon} alt="twitterIcon" className="link" />
+          </a>
+          <a
+            href="https://www.instagram.com/devanshugoel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagramIcon} alt="instagramIcon" className="link" />
+          </a>
+          <a
+            href="https://github.com/Devanshugoell"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={githubIcon} alt="githubIcon" className="link" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/devanshu-goyal-10b8521bb/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedinIcon} alt="linkedinIcon" className="link" />
+          </a>
         </div>
       </form>
     </section>
