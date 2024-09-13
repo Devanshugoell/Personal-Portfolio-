@@ -14,10 +14,10 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">What I do</span>
       <span className="skillDescription">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam iure
-        optio fuga, similique, deserunt culpa veniam consequuntur fugiat quia
-        reiciendis dolore itaque! Quod cum possimus porro consectetur vel totam
-        sunt laboriosam nostrum, odio minima.
+        My expertise spans HTML, CSS, JavaScript, React.js, and Tailwind CSS,
+        allowing me to create clean and efficient user interfaces. I also work
+        with Redux for state management and use Git & GitHub for version
+        control, ensuring seamless collaboration on projects.
       </span>
       <div className="skillBars">
         <div className="skillbar">
