@@ -2,7 +2,6 @@ import React from "react";
 import resume from "../../Assets/resume-icon.png";
 import bg from "../../Assets/new-bg-remove-img.png";
 import "./Intro.css";
-import { Link } from "react-scroll";
 
 const Intro = () => {
   return (
@@ -18,11 +17,15 @@ const Intro = () => {
           Proficient in JavaScript and React Js used in web development
           including version control <br /> tools like Git, GitHub
         </p>
-        <Link>
+        <a
+          href="https://drive.google.com/file/d/1wl4G7NLdYz-zkMuvef0YqQxTNrGuabBw/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="btn">
             <img src={resume} alt="resume" className="resume" /> Resume
           </button>
-        </Link>
+        </a>
       </div>
       <img src={bg} alt="Profile" className="bg" />
     </section>

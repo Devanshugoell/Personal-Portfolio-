@@ -105,9 +105,6 @@
   .introContent .btn {
     margin: 3rem 0;
   }
-}
-
-@media screen and (max-width: 350px) {
   .introContent .btn {
     margin-bottom: 4rem;
     margin-top: 0.5rem;
