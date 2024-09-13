@@ -18,7 +18,7 @@ const Intro = () => {
           including version control <br /> tools like Git, GitHub
         </p>
         <a
-          href="https://drive.google.com/file/d/1RGo2TK9Lf4un--5I-hX_0moQIziJD9cd/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1gwPsJ1Na8p5OK4kMgnmj7chPy-pWOiEo/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >
