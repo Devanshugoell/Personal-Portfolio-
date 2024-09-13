@@ -13,9 +13,12 @@ const Work2 = () => {
         <div className="workDesc">
           <h2 className="workTitle">GEMINI CLONE </h2>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            (techStack that i used is html , tailwindCss , react) (Used
-            contextAPI and Google gemini API to fetch the data)
+            Built a <b>Google Gemini Clone</b> using <b>React</b> and{" "}
+            <b>Tailwind CSS</b> with seamless <b>API integration</b>.
+            Implemented efficient <b>data management</b> using createContext,
+            responsive design, and a typing effect for an interactive user
+            experience. Features include <b>prompt saving</b> in the sidebar for
+            easy access.
           </div>
           <div className="techStack">
             <a
@@ -40,10 +43,11 @@ const Work2 = () => {
         <div className="workDesc">
           <h2 className="workTitle">CRYPTO PRICE TRACKER </h2>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            (techStack that i used is react router dom , react, css, html ,
-            react-google charts) (Used Coingecko API to fetch data and
-            react-google-charts library to show the chart)
+            Developed a <b>Crypto Price Tracker</b> app using <b> React.js</b>,
+            integrating the <b>CoinGecko API</b> for real-time data updates.
+            Utilized React Router DOM for client-side routing and{" "}
+            <b>React Google Charts</b> for data visualization. Efficient data
+            management was handled through the <b>Context API</b>.
           </div>
           <div className="techStack">
             <a
@@ -69,10 +73,11 @@ const Work2 = () => {
         <div className="workDesc">
           <h2 className="workTitle">PERSONAL PORTFOLIO </h2>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-            velit aliquam distinctio fugit blanditiis error voluptatum at
-            reiciendis eum quidem. (Used email.js library to get the email in
-            the contact form and used react-scroll for easy navigation).
+            Created a <b>Personal portfolio</b> website using <b>React.js</b>,
+            featuring seamless <b>email functionality</b> via Email.js for
+            client-side message sending. Enhanced user experience with smooth
+            scrolling through <b>React Scroll</b>, built with HTML, CSS, and JSX
+            for a <b>responsive design</b>.
           </div>
           <div className="techStack">
             <a

@@ -8,6 +8,11 @@
   letter-spacing: 1px;
 }
 
+b {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
 #works {
   margin: 1rem auto;
   min-height: calc(100vh - 4rem);
