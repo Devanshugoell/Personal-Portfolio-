@@ -93,3 +93,10 @@
     width: 100vw;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .techStack span {
+    font-size: 0.7rem;
+    padding: 1rem 0.5rem;
+  }
+}
